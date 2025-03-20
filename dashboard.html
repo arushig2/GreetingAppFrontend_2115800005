@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container dashboard-container">
+        <h2>Welcome, <span id="userName"></span>!</h2>
+        
+        <div class="greeting-input">
+            <input type="text" id="greetingMsg" placeholder="Enter your greeting" required>
+            <button onclick="addGreeting()">Add Greeting</button>
+        </div>
+
+        <ul id="greetingsList"></ul>
+
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
